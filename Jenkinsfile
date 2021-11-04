@@ -9,3 +9,11 @@ node {
 		echo "Test"
 	}
 }
+
+//stage lines are optionals, but useful when we have a lot of stage to execute.
+//It could be so:
+//node {
+//		echo "Build"
+//		echo "Test"
+//		echo "Test"
+//}
